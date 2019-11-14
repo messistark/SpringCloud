@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: EUREKA_SERVER   #应用名称，会在Eureka中显示
+
+eureka:
+  client:
+    register-with-eureka: true   # 是否向服务注册中心注册自己
+    fetch-registry: true        # 是都拉取其他服务信息默认是true 是否在本地缓存注册信息
+    service-url:                # EurekaServer的地址，现在是自己的地址,如果是集群，需要加上其他server地址。
+      defaultZone: http://127.0.0.1:10087/eureka/
