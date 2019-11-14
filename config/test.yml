@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/bms?serverTimezone=UTC
     username: root
-    password: 123456
+    password: '{cipher}72c2ded8bbbec1141a9baad63559a8cd73155f9e89d212bd388c9d59deee326d'
     driver-class-name: com.mysql.jdbc.Driver
 test: 13578
 password: '{cipher}e504b9f71a3e8f61a1b56d92c24804fe07becef7ebb886245b80f1414f8959a7'
