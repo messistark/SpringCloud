@@ -5,3 +5,4 @@ spring:
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
 test: 13578
+password: '{cipher}e504b9f71a3e8f61a1b56d92c24804fe07becef7ebb886245b80f1414f8959a7'
