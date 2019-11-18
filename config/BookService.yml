@@ -2,5 +2,5 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/bms?serverTimezone=UTC
     username: root
-    password: '{cipher}72c2ded8bbbec1141a9baad63559a8cd73155f9e89d212bd388c9d59deee326d'
+    password: '{cipher}9ebe11f4ec06e69fa96b76d876ff06005935a2becb3297f6c833b4946c2f6044'
     driver-class-name: com.mysql.jdbc.Driver
