@@ -3,3 +3,10 @@ zuul:
   prefix: /api
   routes:
     BookService: /Getbook/**
+hystrix:
+  command：
+    default：
+      execution：
+        isolation：
+          thread：
+            timeoutInMilliseconds = 4000
