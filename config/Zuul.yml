@@ -2,4 +2,4 @@ zuul:
   ignored-services: '*'
   prefix: /api
   routes:
-    BookService: /book/**
+    BookService: /Getbook/**
