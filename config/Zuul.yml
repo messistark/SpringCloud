@@ -3,4 +3,5 @@ zuul:
   prefix: /api
   routes:
     BookService: /Getbook/**
+    Client1: /Book/**
    
