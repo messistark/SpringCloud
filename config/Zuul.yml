@@ -4,4 +4,6 @@ zuul:
   routes:
     BookService: /Getbook/**
     Client1: /Book/**
+    Client2: /Book2/**
+
    
